@@ -1,0 +1,25 @@
+{
+    "name": "firevel/firestore",
+    "description": "Firestore wrapper for Laravel app running inside Google App Engine.",
+    "keywords": ["firestore", "app engine", "google cloud", "laravel", "firevel"],
+    "type": "library",
+    "require": {
+        "google/cloud-firestore": "^1.5",
+        "google/protobuf": "^v3.3.0",
+        "illuminate/support": "5.*",
+        "grpc/grpc": "^v1.1.0",
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Slowik",
+            "email": "michael.slowik@firevel.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Firevel\\Firestore\\": "src/"
+        }
+    }
+}
