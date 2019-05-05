@@ -1,5 +1,5 @@
 # Firevel - Firestore
-[Cloud Firestore](https://cloud.google.com/firestore/) library wrapper for [Laravel](https://www.laravel.com) and [Firevel](https://www.firevel.com) compatible with Google App Engine standard environment (PHP 7.2).
+[Cloud Firestore](https://github.com/googleapis/google-cloud-php-firestore) library wrapper for [Laravel](https://www.laravel.com) and [Firevel](https://www.firevel.com) compatible with Google App Engine standard environment (PHP 7.2).
 
 ## Installation
 
@@ -16,9 +16,9 @@ If you are going to use library outside Google App Engine please check [gRPC ins
 To access FirestoreClient simply use `Firestore` facade for example:
 ```php
     $data = [
-		    'name' => 'Los Angeles',
-		    'state' => 'CA',
-		    'country' => 'USA'
+        'name' => 'Los Angeles',
+        'state' => 'CA',
+        'country' => 'USA'
     ];
     Firestore::collection('cities')->document('LA')->set($data);
 ```
