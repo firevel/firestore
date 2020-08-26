@@ -4,10 +4,10 @@
     "keywords": ["firestore", "app engine", "google cloud", "laravel", "firevel"],
     "type": "library",
     "require": {
-        "grpc/grpc": "^v1.1.0",
-        "google/protobuf": "^v3.3.0",
-        "google/cloud-firestore": "^1.5",
-        "illuminate/support": "^5.8||^6.0",
+        "grpc/grpc": "^1.30.0",
+        "google/protobuf": "^v3.13.0",
+        "google/cloud-firestore": "^1.14.1",
+        "illuminate/support": "^5.8||^6.0||^7.0",
         "php": ">=7.1"
     },
     "license": "MIT",

@@ -1,5 +1,5 @@
 # Firevel - Firestore
-[Cloud Firestore](https://github.com/googleapis/google-cloud-php-firestore) library wrapper for [Laravel](https://www.laravel.com) and [Firevel](https://www.firevel.com) compatible with Google App Engine standard environment (PHP 7.2).
+[Cloud Firestore](https://github.com/googleapis/google-cloud-php-firestore) library wrapper for [Laravel](https://www.laravel.com) and [Firevel](https://www.firevel.com) compatible with Google App Engine standard environment (PHP 7.3).
 
 ## Installation
 
