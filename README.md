@@ -9,6 +9,9 @@
 ```
 ; enable the gRPC extension
 extension=grpc.so
+
+; Ref.: https://github.com/colopl/laravel-spanner/issues/12
+grpc.enable_fork_support = 1
 ```
 If you are going to use library outside Google App Engine please check [gRPC installation guide](https://cloud.google.com/php/grpc).
 
