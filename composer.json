@@ -7,8 +7,8 @@
         "grpc/grpc": "^1.30.0",
         "google/protobuf": "^v3.13.0",
         "google/cloud-firestore": "^1.14.1",
-        "illuminate/support": "^5.8||^6.0||^7.0",
-        "php": ">=7.1"
+        "illuminate/support": "^5.8||^6.0||^7.0||^8.0||^9.0",
+        "php": "^7.1|^8.0"
     },
     "license": "MIT",
     "authors": [
