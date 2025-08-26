@@ -9,11 +9,17 @@
 ```
 ; enable the gRPC extension
 extension=grpc.so
-
-; Ref.: https://github.com/colopl/laravel-spanner/issues/12
-grpc.enable_fork_support = 1
 ```
 If you use library outside Google App Engine please check [gRPC installation guide](https://cloud.google.com/php/grpc).
+
+If the `pcntl` extension is enabled, you must set `usePcntl` to `true` in your `.psysh.php` file to avoid gRPC interactions hanging in Tinker:
+```php
+<?php
+
+return [
+    'usePcntl' => false,
+];
+```
 
 ### Usage
 To access FirestoreClient simply use `Firestore` facade for example:
