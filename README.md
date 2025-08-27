@@ -9,6 +9,7 @@
 ```
 ; enable the gRPC extension
 extension=grpc.so
+extension=protobuf.so
 ```
 If you use library outside Google App Engine please check [gRPC installation guide](https://cloud.google.com/php/grpc).
 
